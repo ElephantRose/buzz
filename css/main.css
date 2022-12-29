@@ -1,0 +1,60 @@
+.bg-1 {
+    background:#03A9F4;
+    color:#fff;
+}
+
+.bg-2 {
+    background:#CDDC39;
+    color:#fff;
+}
+
+.bg-3 {
+    background:#607D8B;
+    color:#fff;
+}
+
+.bg-4 {
+    background:#673AB7;
+    color:#fff;
+}
+
+/* body {
+    
+} */
+
+nav {
+    position: absolute;
+    display: inline-block;
+    top:0;
+    bottom:0;
+    left:0;
+    width:25%;
+    overflow-x: auto;
+    padding: 10px 16px;
+}
+
+nav li a { color:inherit;}
+nav li a:hover { color:inherit;}
+
+main {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 16px;
+    top:0;
+    left: 0;
+    bottom:0;
+    right:0;
+    overflow-x: auto;
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    padding: 32px 0px;
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+audio {
+    width:100%;
+    display:inline-block;
+}
